@@ -1,0 +1,43 @@
+body, html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Questrial', sans-serif;
+
+    background: url(ball.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.container {
+    margin: 5px;
+}
+
+h1 {
+    font-weight: strong;
+    font-size: 7rem;
+    font-size: 9vw;
+    color: white;
+    
+}
+
+.btn1 {
+    background-color: navy;
+    border: white 2px solid;
+    border-radius: 300px;
+    min-width: 150px;
+}
+
+hr {
+    max-width: 100px;
+    border-width: 2px;
+    border-color: blue;
+}
+
+.buffer {
+    height: 5rem;
+}
+
+.btn-primary:hover {
+    background-color: rgb(0, 0, 200);
+    border-color: white;
+}
